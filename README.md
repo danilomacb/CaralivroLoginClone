@@ -1,1 +1,1 @@
-# FacebookLoginClone
+Projeto criado para testar meus conhecimentos com html e css sem uso de frameworks, criando uma versão clone da página de login do facebook.
