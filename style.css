@@ -8,8 +8,10 @@
 #menuTop {
     height: 82px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #4E69A2, #3B5998);;
+    background-image: linear-gradient(to bottom, #4E69A2, #3B5998, #3B5998);;
     border-bottom: 1px solid #4E69A2;
+    font-family: "Helvetica";
+    color: white;
 }
 
 .container {
@@ -22,8 +24,48 @@
 }
 
 #logo {
-    color: white;
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
     margin-top: 17px;
+}
+
+#inputs {
+    display: flex;
+    margin-top: 6px;
+}
+#email {
+    margin-right: 14px;
+}
+#senha {
+    
+}
+.inputTitle {
+    font-size: 12px;
+}
+#esqueceu {
+    font-size: 12px;
+    color: #9CB4D8;
+    margin-top: 3px;
+}
+.inputMenuTop {
+    margin-top: 6px;
+    padding: 3px;
+    height: 16px;
+    width: 148px;
+    border: 1px solid #1D2A5B;
+}
+#entrar {
+    margin-top: 21px;
+}
+#submitMenuTop {
+    margin-left: 14px;
+    height: 24px;
+    width: 47px;
+    background-color: #4267B2;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px;
+    border: 1px solid #29487D;
+    border-radius: 2px;
 }
