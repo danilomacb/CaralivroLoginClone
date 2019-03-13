@@ -139,5 +139,40 @@ select {
 
 .formDescription {
     font-size: 11px;
+    color: #777777;
+}
+.formDescription a {
+    color: #365899;
+}
+.formDescription a:hover {
+    text-decoration: underline;
+}
+#formDescriptionNascimento {
     margin-left: 10px;
+}
+#formDescriptionTermos {
+    margin-right: 100px;
+}
+
+#sex {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#sex input {
+    margin-left: 15px;
+}
+#sex label {
+}
+
+#inscrevase {
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #67AC55, #598B45);
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 1px 3px #333;
+    color:white;
+    padding: 7px 46px 7px 46px;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 1px #a4e388;
 }
