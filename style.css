@@ -10,6 +10,13 @@ body {
     height: 1000px;
 }
 
+a {
+    color: #365899;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 #menuTop {
     height: 82px;
     width: 100%;
@@ -141,12 +148,6 @@ select {
     font-size: 11px;
     color: #777777;
 }
-.formDescription a {
-    color: #365899;
-}
-.formDescription a:hover {
-    text-decoration: underline;
-}
 #formDescriptionNascimento {
     margin-left: 10px;
 }
@@ -175,4 +176,12 @@ select {
     border: 1px solid #3B6E22;
     border-radius: 5px;
     box-shadow: inset 0 1px 1px #a4e388;
+}
+
+#criarPagina {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
